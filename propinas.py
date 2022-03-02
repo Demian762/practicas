@@ -1,6 +1,9 @@
 from tkinter import *
 
 def calcular():
+    """
+    Esto es un docstring, no es un comentario normal    
+    """
     try:
         tcp=float(factura.get())
     except:
